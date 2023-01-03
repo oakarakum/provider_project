@@ -19,6 +19,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
         appBar: AppBar(title: Text("Sepetteki Ürün | ${item.cartCounts} | ")),
         body: Column(
           children: [
+            //
             InkWell(
               onTap: () {
                 item.increase();
